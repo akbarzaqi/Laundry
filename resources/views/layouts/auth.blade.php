@@ -20,7 +20,7 @@
     <!-- Favicon -->
     <link href="{{ asset('img/favicon.png') }}" rel="icon" type="image/png">
 </head>
-<body class="bg-gradient-primary min-vh-100 d-flex justify-content-center align-items-center">
+<body class="min-vh-100 d-flex justify-content-center align-items-center" style="background-color: #e9eef2">
 
 @yield('main-content')
 
@@ -28,5 +28,6 @@
 <script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
 <script src="{{ asset('vendor/bootstrap/js/bootstrap.min.js') }}"></script>
 <script src="{{ asset('js/sb-admin-2.min.js') }}"></script>
+
 </body>
 </html>
